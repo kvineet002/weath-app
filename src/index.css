@@ -1,0 +1,234 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.mainn{
+  background: #252525;
+  background: url("https://wallpapercave.com/wp/ntYEFqo.jpg"), lightgray 50% / cover no-repeat;
+
+}
+.main{
+  backdrop-filter: blur(8.5px);
+  border-radius: 41px;
+  background: rgba(37, 37, 37, 0.02);
+  width: 400px;
+height: 500px;
+box-shadow: 9px 0px 10px 0px rgba(0, 0, 0, 0.25), 0px -13px 47px -6px rgba(0, 0, 0, 0.25);
+}
+.main1{
+  width: 1100px;
+height: 600px;
+flex-shrink: 0;
+  border-radius: 20px;
+box-shadow: 9px 22px 30px 2px rgba(0, 0, 0, 0.25), -15px -13px 47px -6px rgba(0, 0, 0, 0.25);
+padding-top: 50px;
+backdrop-filter: blur(8.5px);
+background: rgba(37, 37, 37, 0.15);
+}
+.element1{
+  margin-left: 40px;
+  margin-top: -17px;
+}
+.element2{
+  margin-top:215px;
+  margin-left:195px;
+
+transform: rotate();
+flex-shrink: 0;
+}
+
+.status{
+  font-family: Koulen;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 1.6px;
+background: linear-gradient(180deg, #FFF 0%, rgba(255, 255, 255, 0.00) 130.54%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+margin-top: 30px;
+margin-left: 200px;
+
+}
+.temp{
+  font-family: Koulen;
+  font-size: 100px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 5px;
+  background: linear-gradient(180deg, #FFF 0%, rgba(255, 255, 255, 0.00) 130.54%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+margin-top: 15px;
+margin-left: 220px;
+}
+.max,.min{
+  font-family: Koulen;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 1.6px;
+background: linear-gradient(180deg, #FFF 0%, rgba(255, 255, 255, 0.00) 130.54%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+
+
+}
+.max{
+margin-top: 145px;
+margin-left: 180px;
+}
+.min{
+margin-top: 145px;
+margin-left: 290px;
+}
+.humidity,.percent{
+  font-family: Koulen;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 1.28px;
+text-transform: capitalize;
+background: linear-gradient(180deg, #FFF 0%, rgba(255, 255, 255, 0.00) 130.54%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+
+}
+.humidity{
+margin-left:300px ;
+margin-top:265px;
+}
+.percent{
+margin-left:300px ;
+margin-top:290px;
+}
+.element3{
+  margin-left:260px ;
+margin-top:275px;
+}
+.location{
+  font-family: jost;
+}
+.date{
+  font-size: 13px;
+  margin-top: 73px;
+}
+.search{
+  width: 435px;
+height: 40px;
+flex-shrink: 0;
+  border-radius: 20px;
+background: #252525;
+box-shadow: 9px 0px 15px 5px rgba(0, 0, 0, 0.25), 0px 0px 15px 0px rgba(0, 0, 0, 0.25);
+margin-top: -310px;
+margin-left:-220px;
+font-style: jost;
+padding-left: 25px;
+color: white;
+outline-color:none;
+outline-style: none;
+padding-bottom: 2px;
+}
+.button{
+  width: 43px;
+  height: 40px;
+  flex-shrink: 0;
+    border-radius: 20px;
+  box-shadow: 9px 0px 15px 5px rgba(0, 0, 0, 0.25), 0px 0px 15px 0px rgba(0, 0, 0, 0.25);
+  margin-top: -310px;
+  margin-left:190px;
+  font-style: jost;
+  padding-left: 25px;
+  color: white;
+  outline-color:none;
+  outline-style: none;
+  padding-bottom: 2px;
+  background: linear-gradient(359deg, #F20E5E -48.19%, #E86B4F 154.53%);
+}
+.icon1{
+  margin-top: 150px;
+  width: 180px;
+  margin-left: 2px;
+}.icon2{
+  margin-top: 122px;
+  margin-left: -14px;
+  width: 220px;
+}
+.impdiv{
+  margin-top: 370px;
+}
+.location2{
+  margin-top: 55px;
+  font-size: 15px;}
+.uv p{
+  color: #aeaeae;
+text-align: center;
+font-family: Futura Thin;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.uv h1{
+  font-family: jost;
+  color: white;
+font-size: 13px;
+
+}
+.uv{
+  margin: 15px;
+  margin-top: -15px;
+}
+.line{
+  outline:none;
+  background: linear-gradient(90deg, #F69943 8.67%, #F20E5E 103.92%);
+  height: 2.5px;
+
+  margin-top: 8px;
+}
+
+.time{
+  margin-top: 400px;
+  font-family: azonix;
+  color: white;
+  font-size: 28px;
+}
+.seconds{
+  background: linear-gradient(90deg, #F52372 41.87%, #E86B4F 76.7%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-weight: bold;
+text-shadow: 8px 9px 7px rgba(6, 6, 6, 0.25);
+font-size: 28px;
+
+
+}
+.nice1{
+  margin-left: -311.5px;
+  margin-top: 190px;
+}
+.nice2{
+  margin-left: -1100px;
+  margin-top: -290px;
+}
