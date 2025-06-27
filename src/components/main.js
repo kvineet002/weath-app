@@ -36,7 +36,7 @@ React.useEffect(()=>{
 
 },[])
   async function search(){
- var url=`http://api.weatherapi.com/v1/current.json?key=${api_key}&q=${place}&apqi=no`;
+ var url=`https://api.weatherapi.com/v1/current.json?key=${api_key}&q=${place}&apqi=no`;
   let responce =await fetch(url);
   let data=await responce.json();
   if(data){settemp(Math.floor(data.current.temp_c));
